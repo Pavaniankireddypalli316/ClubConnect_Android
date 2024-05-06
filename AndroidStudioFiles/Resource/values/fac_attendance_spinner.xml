@@ -1,0 +1,8 @@
+<!-- spinner_dropdown_items.xml -->
+<resources>
+    <string-array name="fac_attendance_array">
+        <item>Present</item>
+        <item>Absent</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>

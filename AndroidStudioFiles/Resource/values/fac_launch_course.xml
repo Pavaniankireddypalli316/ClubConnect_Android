@@ -1,0 +1,9 @@
+<!-- spinner_dropdown_items.xml -->
+<resources>
+    <string-array name="fac_launch_array">
+        <item>Good</item>
+        <item>Average</item>
+        <item>Excellent</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>

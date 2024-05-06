@@ -1,0 +1,9 @@
+<!-- spinner_dropdown_items.xml -->
+<resources>
+    <string-array name="fac_reg_status_array">
+        <item>Pending</item>
+        <item>Approved</item>
+        <item>Rejected</item>
+        <!-- Add more items as needed -->
+    </string-array>
+</resources>

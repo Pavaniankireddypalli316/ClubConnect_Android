@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="menubarpoppoins">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@color/indigo</item>
+        <item name="android:fontFamily">@font/poppinsregular</item>
+    </style>
+
+</resources>

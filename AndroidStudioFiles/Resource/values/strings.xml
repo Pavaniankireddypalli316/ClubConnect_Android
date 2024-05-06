@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Club Connect</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="inboxdonations">Inbox Donations</string>
+    <string name="inboxdonationsno">S.No</string>
+    <string name="inboxdonationdescription">Description\t\t\t</string>
+    <string name="inboxdonationstatus">Status</string>
+    <string name="inboxdonationone">1</string>
+    <string name="inboxdonationonedes">An old tv in\nproper working\ncondition</string>
+    <string name="inboxdonationonestatus">Available</string>
+    <string name="inboxdonationtwo">2</string>
+    <string name="inboxdonationtwodes">10 pairs of men\nclothing shirts\nand pants</string>
+    <string name="inboxdonationtwostatus">Closed</string>
+    <string name="yourdonations">Your Donations</string>
+    <string name="yourdonationsno">S.No</string>
+    <string name="yourdonationdescription">Description\t\t\t</string>
+    <string name="yourdonationstatus">Status</string>
+    <string name="yourdonationone">1</string>
+    <string name="yourdonationonedes">10 note books</string>
+    <string name="yourdonationonestatus">Available</string>
+    <string name="yourdonationtwo">2</string>
+    <string name="yourdonationtwodes">HC graw hill c\nprogramming\ntext book</string>
+    <string name="yourdonationtwostatus">Closed</string>
+</resources>
