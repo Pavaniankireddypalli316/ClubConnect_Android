@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".adminloginpage"
+    android:orientation="vertical"
+    android:padding="16sp"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo" />
+    <LinearLayout
+        android:layout_width="350dp"
+        android:layout_height="80dp"
+        android:background="@drawable/pink_colour_btn"
+        android:gravity="center">
+        <TextView
+            android:text="Admin Login"
+            android:textSize="40sp"
+            android:fontFamily="@font/chakrapetchbold"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/usernameinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="AdminId"
+        android:textSize="30sp"
+        android:background="#D3B9B9"
+        android:padding="12dp"
+        android:layout_marginTop="26dp"/>
+
+    <EditText
+        android:id="@+id/passwordinput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:textSize="30sp"
+        android:background="#D3B9B9"
+        android:padding="12dp"
+        android:inputType="textPassword"
+        android:layout_marginTop="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/adminloginbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/poppinsregular"
+        android:textSize="25sp"
+        android:background="#ff5d4c"
+        android:textColor="#ffffff"
+        android:textAllCaps="false"
+        android:padding="12dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_admin_service_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:padding="10sp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/r"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Club Id : "/>
+
+    <TextView
+        android:id="@+id/n"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Club Name: "/>
+    <TextView
+        android:id="@+id/s"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Strength: "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp">
+           <androidx.appcompat.widget.AppCompatButton
+               android:id="@+id/updateButton"
+               android:layout_width="wrap_content"
+               android:textSize="15sp"
+               android:background="@drawable/lightbluebutton"
+               android:fontFamily="@font/poppinsregular"
+               android:layout_height="wrap_content"
+               android:text="Register"
+               android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</LinearLayout>

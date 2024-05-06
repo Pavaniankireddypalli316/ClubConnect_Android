@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF5D4C"
+    tools:context=".startpage">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:fontFamily="@font/chakrapetchbold"
+        android:textSize="40sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="150sp"
+        android:layout_marginTop="50sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="150sp"
+        android:background="@drawable/startpagebox"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="200sp"
+            android:layout_height="70sp"
+            android:background="@drawable/logo"
+            android:layout_marginBottom="20sp"/>
+
+
+        <LinearLayout
+            android:id="@+id/studentbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/startpagebutton"
+            android:padding="20sp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/facultybutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/startpagebutton"
+            android:padding="20sp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faculty"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/adminbutton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="40sp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/startpagebutton"
+            android:padding="20sp"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin"
+                android:fontFamily="@font/poppinsregular"
+                android:textSize="30sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

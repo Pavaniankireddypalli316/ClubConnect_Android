@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_admin_service_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:padding="10sp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/r"
+        android:textSize="20sp"
+        android:layout_marginTop="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Id : "/>
+
+    <TextView
+        android:id="@+id/n"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name: "/>
+    <TextView
+        android:id="@+id/s"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10sp">
+
+        <TextView
+            android:id="@+id/actionstext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Actions : "
+            android:textSize="20sp" />
+        <Spinner
+            android:id="@+id/statusSpinner"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="10sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dataDisplayLinearLayout"
+            android:layout_centerHorizontal="true"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/updateButton"
+            android:layout_width="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginStart="20sp"
+            android:background="#BDD88C"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:text="Update"/>
+    </LinearLayout>
+</LinearLayout>

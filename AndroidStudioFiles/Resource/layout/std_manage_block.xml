@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_admin_service_details.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="15sp"
+    android:padding="10sp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/r"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Id : "/>
+
+    <TextView
+        android:id="@+id/n"
+        android:textSize="20sp"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Name: "/>
+    <TextView
+        android:textSize="20sp"
+        android:id="@+id/act"
+        android:layout_marginStart="10sp"
+        android:fontFamily="@font/poppinsregular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Actions: "/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:id="@+id/updateButton"
+            android:textSize="11sp"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:background="@drawable/lightbluebutton"
+            android:text="Update"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="2dp"
+            android:layout_marginHorizontal="7sp"
+            android:layout_marginTop="8dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:id="@+id/changepasswordButton"
+            android:textSize="11sp"
+            android:background="@drawable/lightbluebutton"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:text="Change Passwrod"
+            android:layout_marginHorizontal="7sp"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="2dp"
+            android:layout_marginTop="8dp"
+            />
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:id="@+id/deleteButton"
+            android:textSize="11sp"
+            android:layout_marginHorizontal="5sp"
+            android:background="@drawable/lightbluebutton"
+            android:fontFamily="@font/poppinsregular"
+            android:layout_height="wrap_content"
+            android:text="Deactivate Id"
+            android:paddingHorizontal="5dp"
+            android:paddingVertical="2dp"
+            android:layout_marginTop="8dp"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:paddingVertical="3dp"
+        android:background="#FFFFFF"/>
+</LinearLayout>
