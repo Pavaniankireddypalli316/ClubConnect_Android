@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".faclaunchcoursepagetwo"
+            android:exported="false" />
+        <activity
+            android:name=".facatdpagetwo"
+            android:exported="false" />
+        <activity
+            android:name=".updatefaculty"
+            android:exported="false" />
+        <activity
+            android:name=".facregtwopage"
+            android:exported="false" />
+        <activity
+            android:name=".facregpagetwo"
+            android:exported="false" />
+        <activity
+            android:name=".facprofileupdate"
+            android:exported="false" />
+        <activity
+            android:name=".facprofilepage"
+            android:exported="false" />
+        <activity
+            android:name=".adminloginpage"
+            android:exported="false" />
+        <activity
+            android:name=".facultyloginpage"
+            android:exported="false" />
+        <activity
+            android:name=".facultylaunchcourse"
+            android:exported="false" />
+        <activity
+            android:name=".facultyregistration"
+            android:exported="false" />
+        <activity
+            android:name=".facultyattendance"
+            android:exported="false" />
+        <activity
+            android:name=".manageclubevents"
+            android:exported="false" />
+        <activity
+            android:name=".stdenrollment"
+            android:exported="false" />
+        <activity
+            android:name=".adminhomepage"
+            android:exported="false" />
+        <activity
+            android:name=".facultyhomepage"
+            android:exported="false" />
+        <activity
+            android:name=".changefacultypassword"
+            android:exported="false" />
+        <activity
+            android:name=".coursestatus"
+            android:exported="false" />
+        <activity
+            android:name=".managefaculty"
+            android:exported="false" />
+        <activity
+            android:name=".stdattendance"
+            android:exported="false" />
+        <activity
+            android:name=".addevent"
+            android:exported="false" />
+        <activity
+            android:name=".addfaculty"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".addcourse"
+            android:exported="false" />
+        <activity
+            android:name=".events"
+            android:exported="false" />
+        <activity
+            android:name=".changepassword"
+            android:exported="false" />
+        <activity
+            android:name=".updatestudent"
+            android:exported="false" />
+        <activity
+            android:name=".addstudent"
+            android:exported="false" />
+        <activity
+            android:name=".managestudents"
+            android:exported="false" />
+        <activity
+            android:name=".startpage"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".splashfive"
+            android:exported="false" />
+        <activity
+            android:name=".splashfour"
+            android:exported="false" />
+        <activity
+            android:name=".splashthree"
+            android:exported="false" />
+        <activity
+            android:name=".splashtwo"
+            android:exported="false" />
+        <activity
+            android:name=".splashsix"
+            android:exported="false" />
+        <activity
+            android:name=".splashzero"
+            android:exported="false" />
+        <activity
+            android:name=".splashone"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".menubar"
+            android:exported="false" />
+        <activity
+            android:name=".adminlogin"
+            android:exported="false" />
+        <activity
+            android:name=".yourrequests"
+            android:exported="false" />
+        <activity
+            android:name=".inboxrequests"
+            android:exported="false" />
+        <activity
+            android:name=".userhistory"
+            android:exported="false" />
+        <activity
+            android:name=".homepage"
+            android:exported="false" />
+        <activity
+            android:name=".services"
+            android:exported="false" />
+        <activity
+            android:name=".store"
+            android:exported="false" />
+        <activity
+            android:name=".storerequest"
+            android:exported="false" />
+        <activity
+            android:name=".profileupdate"
+            android:exported="false" />
+        <activity
+            android:name=".profile"
+            android:exported="false" />
+    </application>
+
+</manifest>
